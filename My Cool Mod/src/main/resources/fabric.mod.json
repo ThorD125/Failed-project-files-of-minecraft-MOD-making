@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "coolmod",
+  "version": "${version}",
+
+  "name": "My Cool Mod",
+  "description": "Coolest Mod",
+  "authors": [
+    "TotallyGamerJet",
+    "Some Other Guy"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/coolmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.my.cool.mod.CoolMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
